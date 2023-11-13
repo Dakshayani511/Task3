@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dialogue box</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="btn btn-primary" onclick="openDialogue()">Open Dialogue</button>
+
+<div id="overlay" class="overlay">
+  <div class="dialogue-container">
+    <h2>Hello there!</h2>
+    <p>Have a simple dialog....! Enter your dialogue here:</p>
+    <textarea id="dialogueInput" rows="4" style="width: 100%;"></textarea>
+    <br>
+    <button class="btn btn-danger" onclick="closeDialogue()">Close</button>
+  </div>
+</div>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
+
+
